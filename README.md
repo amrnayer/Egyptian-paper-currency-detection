@@ -18,7 +18,8 @@ Steps:
 
 ![Screenshot (104)](https://user-images.githubusercontent.com/45432562/92722223-8c584e80-f367-11ea-9ac0-330247b84c57.png)
 
-Result uploaded dataset into google drive:
+Dataset uploaded into google drive:
 https://drive.google.com/drive/folders/1ZOAiFvJbrR6K4Gu7MzR4ybBk9Bu1EHzt?usp=sharing
+
 
 
