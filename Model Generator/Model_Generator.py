@@ -18,7 +18,7 @@ import pandas
 
 #Global Variables
 img_width, img_height = 224,224
-data_dir = "/content/drive/My Drive/New Dataset" #Directory to your dataset
+data_dir = "Dataset directory" #Directory to your dataset
 nb_train_samples = 20713*10 #[0.9*total size of Dataset]*Data generator factor[how many images produced from ImageDataGenerator function]
 nb_validation_samples = 2299*10  #[0.1*total size of Dataset]*Data generator factor[how many images produced from ImageDataGenerator function]
 train_steps = 5918 # 206990 training samples/batch size of 35 = 5914 steps. We are doing heavy data processing
