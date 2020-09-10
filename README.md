@@ -15,5 +15,6 @@ Steps:
 1)Record a vedio for each class
 2)Extract frames 
 3)Save each class in seprate folder
+![Screenshot (104)](https://user-images.githubusercontent.com/45432562/92722223-8c584e80-f367-11ea-9ac0-330247b84c57.png)
 
 
