@@ -38,6 +38,18 @@ Deploy the model to web service.
 For API, we want to run the models locally to handle requests, Exporting a Keras model to H5 file and then import it in server:
 model= keras.models.load_model("Egyptian_Paper_Currency_Detector_Model.h5")
 # Deploy the model as a REST API
-Export model as H5 file and create API using flask framework to recieve images and return model putput as text.
+Export model as H5 file and create API using flask framework to recieve images and return model putput as JSON response.
+therefore it will help developers to use the model in hardware or software
+![Screenshot (105)](https://user-images.githubusercontent.com/45432562/92724195-8152ed80-f36a-11ea-90e1-8df1ac894a12.png)
 
+# Further discussions
+# Even faster models
+Recently, a newer version of VGG16 was released, called VGG19.
+# focus on evaluating the proposed system to recognize banknotes of different countries
+Adding dollars and euros in our system
+# Conclusion
+Our proposed system is based on a modern solution type of deep learning CNN and that insure Performing the process as fast and robust as possible. 
+The basic techniques utilized in our proposed system include image dataset generator, Convolution operations, features extraction, and finally classify the image based on Egyptian Paper currencies. The experimental results demonstrate that the proposed method can Recognize Egyptian paper money with high quality reaches 92% and in a short time.
 
+# Further inquiries
+The code is open-source on GitHub. If you have any questions, feel free to reach out to us at moneyinterperter2020@gmail.com , amr.nayer@gmail.com.
