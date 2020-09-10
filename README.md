@@ -21,8 +21,7 @@ Steps:
 
 ![Screenshot (104)](https://user-images.githubusercontent.com/45432562/92722223-8c584e80-f367-11ea-9ac0-330247b84c57.png)
 
-Dataset uploaded into google drive:
-https://drive.google.com/drive/folders/1ZOAiFvJbrR6K4Gu7MzR4ybBk9Bu1EHzt?usp=sharing
+>Dataset uploaded into google drive:https://drive.google.com/drive/folders/1ZOAiFvJbrR6K4Gu7MzR4ybBk9Bu1EHzt?usp=sharing
 
 # Choosing the right model
 Tuning deep neural architectures to strike an optimal balance between accuracy and performance has been an area of active research for the last few years. This becomes even more challenging when you need to deploy the model to web services and still ensure it is high-performing.
@@ -49,10 +48,10 @@ therefore it will help developers to use the model in hardware or software
 
 # Further discussions
 
-# Even faster models
+> Even faster models
 Recently, a newer version of VGG16 was released, called VGG19.
 
-# focus on evaluating the proposed system to recognize banknotes of different countries
+> focus on evaluating the proposed system to recognize banknotes of different countries
 Adding dollars and euros in our system
 
 # Conclusion
