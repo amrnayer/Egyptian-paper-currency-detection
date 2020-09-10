@@ -39,8 +39,8 @@ In practice, using transfer learning often requires you to "freeze" a few top la
 # Deploy the model
 Deploy the model to web service.
 For API, we want to run the models locally to handle requests, Exporting a Keras model to H5 file and then import it in server:
-keras.models.load_model("Egyptian_Paper_Currency_Detector_Model.h5")
-trained model : https://drive.google.com/file/d/1FUBtkGevccPRh2f5416abcRp1lZ9DFXH/view?usp=sharing 
+keras.models.load_model("Egyptian_Paper_Currency_Detector_Model.h5").
+>trained model : https://drive.google.com/file/d/1FUBtkGevccPRh2f5416abcRp1lZ9DFXH/view?usp=sharing 
 
 # Deploy the model as a REST API
 Export model as H5 file and create API using flask framework to recieve images and return model putput as JSON response.
