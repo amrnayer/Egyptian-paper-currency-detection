@@ -1,13 +1,16 @@
 # Egyptian-paper-currency-detection
 Transform Egyptian paper currency image into sound by using Deep learning and transfer learning concept 
+
 # Introduction
 Modern automation systems in the real-world require a system for currency recognition. 
 It has various potential applications including banknote counting machines, money exchange machines, electronic banking, currency monitoring systems, assist blind persons, etc. The recognition of currency is a very important Need for Blind and visually impaired people. 
 They are not being able to differentiate between currencies correctly.
 It is very easy for them to be cheated by others. 
 Therefore, there is an urgent need to design a system to recognize the value of currencies easily regardless of rotation, illumination, scaling and other Factors that may reduce the quality of the currency such as noisy, wrinkled and striped currencies
+
 # Generating the currency detection model
 In this section you will learn how to build, train and deploy a currency detection model to Azure and the intelligent edge.
+
 # Dataset preparation and pre-processing
 In this section, we will share how you can create the dataset needed for training the model.
 In our case, the dataset consists of 14 classes. These  14 classes denoting the different denominations (inclusive both the front and back of the currency note). Each class has around 7500 images (with notes placed in various places and in different angles, see below), You can easily create the dataset needed for training in half an hour with your phone.
@@ -36,17 +39,22 @@ In practice, using transfer learning often requires you to "freeze" a few top la
 # Deploy the model
 Deploy the model to web service.
 For API, we want to run the models locally to handle requests, Exporting a Keras model to H5 file and then import it in server:
-model= keras.models.load_model("Egyptian_Paper_Currency_Detector_Model.h5")
+keras.models.load_model("Egyptian_Paper_Currency_Detector_Model.h5")
+trained model : https://drive.google.com/file/d/1FUBtkGevccPRh2f5416abcRp1lZ9DFXH/view?usp=sharing 
+
 # Deploy the model as a REST API
 Export model as H5 file and create API using flask framework to recieve images and return model putput as JSON response.
 therefore it will help developers to use the model in hardware or software
 ![Screenshot (105)](https://user-images.githubusercontent.com/45432562/92724195-8152ed80-f36a-11ea-90e1-8df1ac894a12.png)
 
 # Further discussions
+
 # Even faster models
 Recently, a newer version of VGG16 was released, called VGG19.
+
 # focus on evaluating the proposed system to recognize banknotes of different countries
 Adding dollars and euros in our system
+
 # Conclusion
 Our proposed system is based on a modern solution type of deep learning CNN and that insure Performing the process as fast and robust as possible. 
 The basic techniques utilized in our proposed system include image dataset generator, Convolution operations, features extraction, and finally classify the image based on Egyptian Paper currencies. The experimental results demonstrate that the proposed method can Recognize Egyptian paper money with high quality reaches 92% and in a short time.
