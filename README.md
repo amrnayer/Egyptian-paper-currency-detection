@@ -6,4 +6,14 @@ It has various potential applications including banknote counting machines, mone
 They are not being able to differentiate between currencies correctly.
 It is very easy for them to be cheated by others. 
 Therefore, there is an urgent need to design a system to recognize the value of currencies easily regardless of rotation, illumination, scaling and other Factors that may reduce the quality of the currency such as noisy, wrinkled and striped currencies
+# Generating the currency detection model
+In this section you will learn how to build, train and deploy a currency detection model to Azure and the intelligent edge.
+# Dataset preparation and pre-processing
+In this section, we will share how you can create the dataset needed for training the model.
+In our case, the dataset consists of 14 classes. These  14 classes denoting the different denominations (inclusive both the front and back of the currency note). Each class has around 7500 images (with notes placed in various places and in different angles, see below), You can easily create the dataset needed for training in half an hour with your phone.
+Steps:
+1)Record a vedio for each class
+2)Extract frames 
+3)Save each class in seprate folder
+
 
