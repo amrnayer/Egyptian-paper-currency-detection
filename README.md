@@ -21,5 +21,23 @@ Steps:
 Dataset uploaded into google drive:
 https://drive.google.com/drive/folders/1ZOAiFvJbrR6K4Gu7MzR4ybBk9Bu1EHzt?usp=sharing
 
+# Choosing the right model
+Tuning deep neural architectures to strike an optimal balance between accuracy and performance has been an area of active research for the last few years. This becomes even more challenging when you need to deploy the model to web services and still ensure it is high-performing.
+In our project, we choose to use VGG16 because it provides decent performance based on our empirical experiments.
+
+# Build and train the model
+Doing transfer learning with pre-trained models on large datasets
+
+# Transfer Learning
+Transfer learning is a machine learning method where you start off using a pre-trained model, adapt and fine-tune it for other domains. For use cases such as Seeing AI, because the dataset is not large enough, starting with a pre-trained model, and further fine-tuning the model can reduce training time, and alleviate possible overfitting.
+
+In practice, using transfer learning often requires you to "freeze" a few top layers' weights of a pre-trained model, then let the rest of the layers be trained normally (so back-propagation process can change their weights). Using Keras for transfer learning is quite easy – just set the trainable parameter of the layers which you want to freeze to False, and Keras will stop updating the parameters of those layers, while still back propagate the weights of the rest of the layers:
+
+# Deploy the model
+Deploy the model to web service.
+For API, we want to run the models locally to handle requests, Exporting a Keras model to H5 file and then import it in server:
+model= keras.models.load_model("Egyptian_Paper_Currency_Detector_Model.h5")
+# Deploy the model as a REST API
+Export model as H5 file and create API using flask framework to recieve images and return model putput as text.
 
 
