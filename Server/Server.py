@@ -26,7 +26,7 @@ def classification():
         nparr = np.fromstring(r.data, np.uint8)
         img = cv2.imdecode(nparr, cv2.IMREAD_COLOR)
         resized_image =cv2.resize(img, (224,224),interpolation = cv2.INTER_AREA)
-        model = load_model('Egyptian_Paper_Currency_Detector_Model.h5')
+        model = load_model('Model name')
         print(model.summary())
         imgar = img_to_array(resized_image)
         imgpred = np.expand_dims(imgar, axis=0)
